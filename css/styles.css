@@ -1,36 +1,31 @@
 .container-fluid {
-  background-color: yellow;
+  background-color: #ffffff;
   padding: 30px;
-  border: 3px solid black;
 }
 .header {
-  background-color: blue;
+  background-color: #666666;
   padding: 30px;
-  border: 3px solid black;
   height: 200px;
 }
 .nav {
-  background-color: green;
+  background-color: #333333;
   padding: 30px;
-  border: 3px solid black;
   height: 100px;
+  color: white;
 }
 .content {
-  background-color: red;
+  background-color: #fbfbfb;
   padding: 30px;
-  border: 3px solid black;
   height: 300px;
 }
 .aside {
-  background-color: aqua;
+  background-color: #666666;
   padding: 30px;
-  border: 3px solid black;
   height: 300px;
 }
 .promo {
   background-color: orange;
   padding: 30px;
-  border: 3px solid black;
   height: 300px;
 }
 footer {
@@ -38,4 +33,17 @@ footer {
   padding: 30px;
   height: 100px;
   color: white;
+}
+
+
+
+@media screen and (min-width : 375px) {
+.promo {
+  background-color: red;
+}
+}
+@media screen and (min-width : 768px) {
+.content {
+  background-color: #fff;
+}
 }
